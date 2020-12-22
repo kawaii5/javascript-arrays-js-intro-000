@@ -1,11 +1,9 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
 function addElementToBeginningOfArray (arr, element) {
-  var temp = [element, ... arr];
-  return temp;
+  return [element, ... arr];
 }
 
 function addElementToEndOfArray (arr, element) {
-  var temp = [... arr];
-  return temp.push(element);
+  return [... arr, element];
 }
